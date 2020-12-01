@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: CyberCube
+  m_Shader: {fileID: 4800000, guid: 61054a61bebe19f49a8d9767c1c3212d, type: 3}
+  m_ShaderKeywords: _COLORMODE_MULTIPLY _EMISSION _ENABLEPULSATION_ON _INVERTMAINTEXTURE_ON
+    _SCROLLROTATE_SCROLL _SHARPX_ON _SHARPY_ON _SHARPZ_ON
+  m_LightmapFlags: 1
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Maintexture:
+        m_Texture: {fileID: 2800000, guid: 0c3c8c2030d77a84c8ec709aa6ea13cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Masktexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Secondarytexture:
+        m_Texture: {fileID: 2800000, guid: e3933cb2e2577fb4ab81423186807589, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Tex:
+        m_Texture: {fileID: 2800000, guid: b4f215e8d7dc83a42a4c06f9c96daf45, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _Bias: 0
+    - _BumpScale: 1
+    - _Colormode: 2
+    - _Cutoff: 0.5
+    - _DetailNormalMapScale: 1
+    - _Distortionscale: 1
+    - _Distortionspeed: 1
+    - _DstBlend: 0
+    - _Emission: 0.8
+    - _Enabledistortion: 0
+    - _Enablenoise: 0
+    - _Enablepulsation: 1
+    - _Extraroughness: 1
+    - _Globalemissionflicker: 0
+    - _Globalemissionflickeramplitude: 0.5
+    - _Globalemissionflickerfreq: 1
+    - _Globalemissionflickeroffset: 1
+    - _Globalopacity: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Horizontalmovement: 0
+    - _Horizontalmovementamplitude: 0.5
+    - _Horizontalmovementfreq: 1
+    - _Horizontalmovementoffset: 0
+    - _Horizontalstretch: 0
+    - _Horizontalstretchamplitude: 0.5
+    - _Horizontalstretchfreq: 0.5
+    - _Horizontalstretchoffset: 0
+    - _Horizontalstretchpivotpoint: 0
+    - _Innerfresnelintensity: 0
+    - _Invertmaintexture: 1
+    - _Invertsecondarytexture: 0
+    - _Maintextureintensity: 9
+    - _Masktexturerotationspeed: 0
+    - _Metallic: 0
+    - _Mode: 0
+    - _Noisescale: 1
+    - _OcclusionStrength: 1
+    - _Outerfresnelintensity: 1
+    - _Parallax: 0.02
+    - _Power: 3
+    - _Pulseamplitude: 0.3
+    - _Pulsefrequency: 1
+    - _Pulseoffset: 1
+    - _Pulsephase: 1
+    - _RotationSpeed: 1
+    - _Scale: 1
+    - _ScanlinesX: 0
+    - _ScanlinesY: 0
+    - _ScanlinesZ: 0
+    - _ScanlinesscaleX: 30
+    - _ScanlinesscaleY: 30
+    - _ScanlinesscaleZ: 30
+    - _ScanlinesspeedX: -5
+    - _ScanlinesspeedY: -5
+    - _ScanlinesspeedZ: -5
+    - _ScrollingspeedX: -1
+    - _ScrollingspeedY: 0
+    - _Scrollrotate: 0
+    - _Secondarytextureintensity: 1
+    - _SharpX: 1
+    - _SharpY: 1
+    - _SharpZ: 1
+    - _Sharpennoise: 0.172
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _TessMax: 25
+    - _TessMin: 10
+    - _TessPhongStrength: 0
+    - _TessValue: 1
+    - _UVSec: 0
+    - _Verticalmovement: 0
+    - _Verticalmovementamplitude: 0.5
+    - _Verticalmovementfreq: 1
+    - _Verticalmovementoffset: 0
+    - _Verticalstretch: 0
+    - _Verticalstretchamplitude: 0.5
+    - _Verticalstretchfreq: 0.5
+    - _Verticalstretchoffset: 0
+    - _Verticalstretchpivotpoint: -0.06438866
+    - _ZWrite: 1
+    - __dirty: 1
+    m_Colors:
+    - _Color: {r: 0, g: 1, b: 1, a: 1}
+    - _Edgecolor: {r: 0, g: 0.9622642, b: 0.75421154, a: 0.666}
+    - _EmissionColor: {r: 0, g: 2, b: 2, a: 0}
+    - _Maincolor: {r: 0, g: 0.093925, b: 1, a: 0.666}
+    - _Mainpanningspeed: {r: 0.3, g: 0, b: 0, a: 0}
+    - _Masktextureoffset: {r: 0, g: 0, b: 0, a: 0}
+    - _Masktexturetiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Noisespeed: {r: -3, g: 1, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0, b: 0, a: 0}
+    - _Secondarycolor: {r: 0.10392157, g: 0.10392157, b: 0.10392157, a: 1}
+    - _Secondarypanningspeed: {r: 0, g: 3, b: 0, a: 0}
+    - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
+    - _Tiling: {r: 1, g: 1, b: 0, a: 0}
